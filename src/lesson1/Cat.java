@@ -14,13 +14,13 @@ public class Cat {
         this.jumping = "Прыгает!";
     }
 
-    public void catInfo() {
-        System.out.println("Кот " + jumping);
-    }
-
-    public String getJumping() {
-        return jumping;
-    }
-
+//    public void catInfo() {
+//        System.out.println("Кот " + jumping);
+//    }
+//
+//    public String getJumping() {
+//        return jumping;
+//    }
+//
 
 }
