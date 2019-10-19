@@ -25,7 +25,7 @@ public class Human implements Participant {
     @Override
     public String toString() {
         return "Human{" +
-                "name='" + '\'' +
+                "name='" + name + '\'' +
                 ", jumpHeight=" + jumpHeight +
                 ", maxRunLength=" + maxRunLength +
                 '}';

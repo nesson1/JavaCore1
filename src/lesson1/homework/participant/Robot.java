@@ -25,7 +25,7 @@ public class Robot implements Participant {
     @Override
     public String toString() {
         return "Robot{" +
-                "model='" + '\'' +
+                "model='" + model + '\'' +
                 ", jumpHeight=" + jumpHeight +
                 ", maxRunLength=" + maxRunLength +
                 '}';

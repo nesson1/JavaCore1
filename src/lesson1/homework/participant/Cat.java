@@ -25,7 +25,7 @@ public class Cat implements Participant {
     @Override
     public String toString() {
         return "Cat{" +
-                "name='" + '\'' +
+                "name='"+ name + '\'' +
                 ", jumpHeight=" + jumpHeight +
                 ", maxRunLength=" + maxRunLength +
                 '}';
