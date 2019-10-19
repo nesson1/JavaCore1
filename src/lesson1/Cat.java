@@ -6,12 +6,12 @@ public class Cat {
     private static Object Cat;
 
     public static void main(String[] args) {
-        Cat cat = new Cat("Прыгает");
+        Cat cat = new Cat("Прыгает!");
         System.out.println(Cat);
     }
 
-    public Cat(String jumping) {
-        this.jumping = "Прыгает!";
+    private Cat(String jumping) {
+        lesson1.Cat.jumping = "Прыгает!";
     }
 
     public void catInfo() {
